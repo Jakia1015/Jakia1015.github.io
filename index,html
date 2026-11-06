@@ -29,6 +29,7 @@
             position: sticky;
             top: 0;
             box-shadow: 0 2px 10px #ddd;
+            z-index: 10;
         }
 
         nav h2 {
@@ -105,19 +106,16 @@
             margin-top: 15px;
         }
 
-        .project a {
+        .project a,
+        .contact a {
             color: #7164aa;
             font-weight: bold;
             text-decoration: none;
         }
 
-        .project a:hover {
+        .project a:hover,
+        .contact a:hover {
             text-decoration: underline;
-        }
-
-        .contact a {
-            color: #7164aa;
-            text-decoration: none;
         }
 
         footer {
@@ -158,6 +156,7 @@
 
     <div>
         <a href="#about">About</a>
+        <a href="#education">Education</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
